@@ -1,6 +1,6 @@
 CROSS_COMPILE ?= arm-linux-gnueabihf-
 
-all: libutils main clean
+all: libutils main 
 
 libutils: libio 
 	$(CROSS_COMPILE)gcc -c src/UTILS/TIMERS/timers.c -o obj/libutils/timers.o -L./lib  -lio 
