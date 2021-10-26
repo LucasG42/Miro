@@ -1,3 +1,4 @@
+#include "../../../inc/registers.h"
 #include "uart.h"
 void put_char(unsigned char c)
 {

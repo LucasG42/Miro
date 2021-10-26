@@ -1,5 +1,5 @@
+#include "../../../inc/registers.h"
 #include "watchdog.h"
-
 void disable_wdt(void)
 {
   WDT_WSPR = 0xAAAA;

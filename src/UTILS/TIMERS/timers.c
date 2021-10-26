@@ -1,4 +1,4 @@
-#include "../../Core/RTC/rtc.h"
+#include "../../../inc/registers.h"
 #include "../../Core/UART/uart.h"
 void print_time(void)
 {

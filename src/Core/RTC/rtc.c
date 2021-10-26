@@ -1,4 +1,4 @@
-#include "../CLOCK/clock.h"
+#include "../../../inc/registers.h"
 #include "rtc.h"
 
 void rtc_setup(void)

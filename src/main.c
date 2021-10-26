@@ -1,3 +1,4 @@
+#include "../inc/registers.h"
 #include "Core/GPIO/gpio.h"
 #include "Core/RTC/rtc.h"
 #include "Core/WD/watchdog.h"

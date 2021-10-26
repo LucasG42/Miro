@@ -1,4 +1,4 @@
-#include "../CLOCK/clock.h"
+#include "../../../inc/registers.h"
 #include "gpio.h"
 
 void gpio_setup()
